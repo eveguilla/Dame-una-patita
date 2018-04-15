@@ -1,0 +1,589 @@
+@font-face {
+    font-family: pedigree_lightregular;
+    src: url(https://static1.squarespace.com/static/59dbd010e3df281768a89e2c/t/59df855ee9bfdf961238ef7e/1507820894862/Pedigree-Light.woff);
+}
+@font-face {
+    font-family: pedigree_ultra_boldregular;
+    src: url(https://static1.squarespace.com/static/59dbd010e3df281768a89e2c/t/59df8564cd0f68b51fd84c37/1507820900863/Pedigree-UltraBold.woff);
+}
+
+.anchors { 	height: 0px !important; }
+
+.anchors2 {   padding-top: 252px; }
+
+p { font-family: "pedigree_lightregular", sans-serif; }
+
+h1, h3, h4, h5, h6 { font-family: "pedigree_ultra_boldregular", sans-serif; }
+
+#header { padding: 0px; }
+
+.header-inner {
+	max-width: 100%;
+	padding: 0px 30px;
+}
+
+#logoImage img {
+	max-height: 172px;
+	margin-bottom: -35px;
+}
+
+#siteTitle a { font-family: "pedigree_ultra_boldregular", sans-serif; }
+
+#sidecarNav { x-index: 5; }
+
+#headerNav a {
+	font-family: "pedigree_lightregular", sans-serif !important; 
+	font-style: normal !important;
+	font-weight: 100 !important;
+	padding: 0px 10px;  
+}
+
+#mainNavigation > div:nth-child(1) > a, #mobileNavigation > div:nth-child(1) > a { 
+	display:none; 
+}
+
+.nav-button-corner-style-rounded.enable-nav-button #headerNav nav>div:not(.folder):last-child a {
+	font-family: "pedigree_ultra_boldregular", sans-serif !important;
+	border-radius: 300px;
+}
+
+.nav-button-corner-style-rounded.enable-nav-button #headerNav nav>div:not(.folder):last-child a:hover { 
+	background-color: #1c5773;
+}
+
+.collection-type-index .page-content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px;
+    margin: 0px;
+}
+
+.collection-type-index .page-content {
+  padding: 0px 0px !important;
+}
+
+#subheader, #subheader-en, #subheader_goal {
+	max-width: 100%;
+	padding: 20px 0px 0px 0px;
+	padding-top: 60px;
+	background: #88cef0;
+}
+
+#block-c19d45cbc3cf337c6cd2 > div > div > div.info-box {
+  margin-top: 50px;
+}
+
+.sqs-layout > .sqs-row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.subhead-wrapper {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0px;
+}
+
+.logo2 {
+	display: inline-block;
+	position: relative;
+	float: right;
+	width: 410px;
+	height: 220px;
+	margin: 0px auto 40px auto;
+	top: 0px;
+}
+
+.info-box {
+	display: inline-block;
+	position: relative;
+	width: 330px;
+	background: #bfebff;
+	padding: 10px 20px;
+	border: #bfebff solid 3px;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+
+.info-box-center {
+	width: 330px;
+	margin: 0px auto;
+}
+
+.col-1 {
+	width: 200px;
+	display: inline-block;
+	text-align: right;
+	padding-right: 0px;
+}
+
+.col-2 {
+	width: 110px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#days, #daysLabel {
+	display: none;
+}
+
+.paypal-btn {
+	display: block;
+	margin: 0 auto;
+}
+
+.numbers {
+    font-family: pedigree_ultra_boldregular;
+	font-size: 44px;
+	line-height: 5px
+}
+
+.numbers > sup {
+	font-size: 20px;
+	position: relative;
+	margin-right: 5px;	
+}
+
+.numbers.goal > sup {
+	font-size: 12px;
+	position: relative;	
+}
+
+.info-title {
+    font-family: pedigree_ultra_boldregular;
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-top: 10px;
+  	margin-bottom: -20px;
+	padding-bottom: 0px;
+}
+
+.descriptions {
+	font-size: 20px;
+	line-height: 31px;
+}
+.goal {
+	display: none;
+	color: #1c5773;
+	margin-top: -8px;
+}
+
+.numbers.goal {
+	font-size: 20px;
+}
+
+.descriptions.goal {
+	position: relative;
+	top: -5px;
+}
+
+.content-inner {
+  max-width: 1080px !important;
+  margin: 0 auto;
+}
+
+
+#intro, #intro-en, #opciones, #gracias-a-todos {
+	padding: 60px 0px 0px 0px;
+	background: #000000; 
+	color: white;
+	text-align: center;
+}
+
+#intro h2, #intro-en h2, #opciones h2, #gracias-a-todos h2 {
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-size: 40px;
+	font-weight: 300;
+	margin-top: -20px;
+	padding: 0 0px;
+}
+
+#intro p, #intro-en p, #opciones p {
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0 100px;
+}
+
+#albergues, #shelters {
+	padding: 100px 0px 0px 0px !important;
+	background: #ffffff;
+}
+
+#ayuda, #help, #registro, #petfriendly, #alb-ssfa, #alb-bdr,  #petfriendly-en, #alb-ssfa-en, #alb-bdr-en {
+	padding: 140px 0px 0px 0px;
+	background: #e6f6ff;
+}
+
+#voluntarios-registrados {
+	padding: 50px 0px 0px 0px;
+	background: #e6f6ff;
+}
+
+
+#voluntarios, #volunteers, {
+	padding: 140px 0px 0px 0px !important;
+	background: white;
+}
+
+#pedigree, #pedigree-en {
+	background-color: #ffbe21;
+	padding-bottom: 0px !important;
+}
+
+#dame-una-patita {
+	background-color: #000;
+	color: white;
+	padding-bottom: 0px !important;
+	padding: 60px 0px 0px 0px;
+	margin-bottom: 20px;
+}
+
+#dame-una-patita h1, #dame-una-patita h2 {
+	color: white;
+}
+
+#petfriendly, #pet-friendly-en, #alb-sas, #alb-sas-en, #alb-sc, #alb-sc-en, #alb-rk, #alb-rk-en {
+/*  padding-bottom: 10px;*/
+}
+
+#preFooter {
+	padding: 60px 0px 0px 0px;
+}
+
+#preFooterBlocks {
+	padding-bottom:0px;
+}
+
+.footer-inner {
+	padding: 25px 0px 0px 0px;
+	margin-top: -25px;
+}
+
+#footer {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 20px !important;
+	padding-left: 0px;
+}
+
+#preFooter .divider {
+    margin-bottom: 25px !important;
+}
+
+#block-yui_3_17_2_5_1508508022845_11022 {
+	padding-bottom: 0px;
+}
+
+.divider {
+    padding-bottom: 0px !important;
+	height: 37px;
+}
+
+.black {
+	background: url(https://static1.squarespace.com/static/59dbd010e3df281768a89e2c/t/59e7b10c12abd9eb164cd634/1508356364557/divider-black.png) repeat-x bottom;	
+}
+
+.whiteTop {
+	background: url(https://static1.squarespace.com/static/59dbd010e3df281768a89e2c/t/59f9e1b0d6839abc92e7ed2a/1509548464243/divider-white-bottom.png) repeat-x top;
+	position: relative;
+	bottom: -35px;
+	z-index: 2;
+}
+
+.white {
+	background: url(https://static1.squarespace.com/static/59dbd010e3df281768a89e2c/t/59ea3bfbe5dd5bc5e0a23754/1508523003613/divider-white.png) repeat-x bottom;
+}
+
+.grey {
+	background: url(https://static1.squarespace.com/static/59dbd010e3df281768a89e2c/t/59ea3c55a8b2b0f0305af70e/1508523093262/divider-grey.png) repeat-x bottom;
+}
+
+.yellow {
+	background: url(https://static1.squarespace.com/static/59dbd010e3df281768a89e2c/t/59ea3c6432601e81e87c6a29/1508523108237/divider-yellow.png) repeat-x bottom;
+}
+
+.blue {
+	background: url(https://static1.squarespace.com/static/59dbd010e3df281768a89e2c/t/59f396690d9297e471dcb6cc/1509135977361/divider-blue.png) repeat-x bottom;
+}
+
+#block-yui_3_17_2_2_1509560582492_43830, #block-65cdad86d9c7bb5966ca {
+	display: block;
+	position: relative;
+	float: left;
+	height: 350px;
+}
+
+.manita {
+	display: inline-block;
+	position: relative;
+  	object-position: bottom;
+	bottom: 20px !important;
+	left: 10px;
+}
+
+.patita {
+	display: inline-block;
+	position: relative;
+    float: right;
+  	object-position: bottom;
+  	bottom: -60px !important;
+}
+
+.form-block .lightbox-handle{
+	font-size: 22px;
+}
+
+/* 
+-------------------
+-- LANG BAR --
+-------------------
+*/
+
+.langBar {
+	height: 36px;
+	margin: 0px;
+	padding: 0px 30px;
+	font-family: quicksand !important;
+}
+.langBar.top {
+	background: black;
+	top: 0px;
+}
+.langBar.bottom {
+	background: #00508e;
+	bottom: 0px;
+}
+
+.langBar.bottom > .langMenu {
+	float: none;
+	text-align: center;
+}
+
+.langMenu {
+	font-size: 18px;
+	padding: 6px 0px 0px 0px;
+	float: right;
+}
+
+.langMenu a, .langMenu span {
+	color: white;
+	margin: 0px 5px;
+	text-decoration: none;
+}
+
+.langMenu a:hover {
+	text-decoration: underline;
+}
+
+#langMenuClose {
+	font-weight: 700;
+	margin-left: 30px;
+	text-decoration: none !important;
+	border-radius: 500px;
+	border: solid black thin;
+	background: black;
+	color: white;
+	height: 24px;
+	position: relative;
+	top: -2px;
+}
+
+#langMenuClose:hover {
+	border: solid white thin;
+}
+
+/* 
+-------------------
+-------------------
+-- MOBILE STYLES --
+-------------------
+-------------------
+*/
+
+@media only screen and (max-width: 800px) { 
+	
+	.logo2 {
+		display: block !important;
+		float: none !important;
+	}
+	.info-box {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+
+	#ayuda .sqs-col-4, #voluntarios .sqs-col-4, #help .sqs-col-4, #volunteers .sqs-col-4 {
+		width: 0%;
+		display: none;
+	}
+
+	#ayuda .sqs-col-8, #voluntarios .sqs-col-8, #help .sqs-col-8, #volunteers .sqs-col-8 {
+		display: block;
+		position: relative;
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+  
+}
+
+@media only screen and (max-width: 640px) { 
+
+	#logoImage img {
+		max-height: 120px !important;
+		left: -20px;
+		display: block;
+		position: relative;
+		float: left;
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+
+	.sqs-layout .sqs-row .sqs-block:last-child {
+		padding: 30px 0px 30px 0px !important;
+	}
+
+	#ayuda .sqs-col-4, #voluntarios .sqs-col-4, #help .sqs-col-4, #volunteers .sqs-col-4 {
+		width: 0%;
+		display: none;
+	}
+
+	#ayuda .sqs-col-8, #voluntarios .sqs-col-8, #help .sqs-col-8, #volunteers .sqs-col-8  {
+		display: block;
+		position: relative;
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#gracias-a-todos p, #gracias-a-todos h2, #donaciones-recibidas p, #voluntarios-registrados p, #dame-una-patita p {
+		padding-left: 20px; 
+		padding-right: 20px;
+	}
+
+	#donaciones-recibidas h1 {
+		padding-left: 10px; 
+		padding-right: 10px;
+		margin-bottom: -50px;
+	 }
+
+	#donaciones-recibidas h2 {
+		padding-left: 10px; 
+		padding-right: 10px;
+	}
+
+	.menu {
+		margin: -30px 20px 0px;
+	}
+	
+}
+  
+@media only screen and (max-width: 480px) { 
+	
+	.logo2 img {
+		width: 300px;
+		height: 181px;
+	}
+
+	.logo2 {
+		width: 100%;
+		-webkit-transform:scale(1);
+		margin: -70px 0px -40px 0px !important;
+	}
+
+	.info-box {
+		position: relative !important;
+		width: 100%;
+		height: 100%;
+		margin: 0px auto !important;
+		padding: 20px 0px 10px 0px;
+	}
+
+	.info-box-center {
+		width: 300px;
+		margin: 0px auto;
+	}
+
+	.col-1 {
+		width: 170px;
+		display: inline-block;
+		text-align: right;
+		padding-right: 0px;
+	}
+
+	.col-2 {
+		width: 120px;
+		display: inline-block;
+		padding-left: 5px;
+	}
+
+	.paypal-btn {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.numbers {
+		font-size: 30px;
+		line-height: 5px
+	}
+
+	.numbers > sup {
+		font-size: 18px;
+		position: relative;
+		margin-right: 2px;
+	}
+
+	.info-title {
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: -10px;
+		padding-bottom: 0px;
+	}
+
+	.descriptions {
+		font-size: 16px; 
+		line-height: 20px;
+	}  
+
+	#intro h2, #intro-en h2, #opciones h2 {
+		font-size: 30px !important;
+		margin-top: -10px;
+		padding: 0 10%;
+	}
+
+	#intro p, #intro-en p, #opciones p {
+		font-size: 15px !important;
+		line-height: 25px;
+		padding: 0 10%;
+	}
+
+	#block-yui_3_17_2_2_1507922539720_131754 > div > p , #block-yui_3_17_2_2_1507922539720_131754 > div > h3 {
+		padding: 0 10% !important;
+	}
+
+	#petfriendly, #pedigree, #alb-sas, #alb-ssfa, #alb-sc, #alb-bdr, #alb-rk, #pet-friendly-en, #pedigree-en, #alb-sas-en, #alb-ssfa-en, #alb-sc-en, #alb-bdr-en, #alb-rk-en {
+		padding: 20px !important;
+	}
+
+	/* 
+	-------------------
+	-- LANG BAR --
+	-------------------
+	*/
+
+	.langMenu {
+		float: none;
+		text-align: center;
+	}
+
+	.langBar {
+		padding: 5px 10px 0px 30px;
+	}
+
+	#langMenuClose {
+		float: right;
+		margin-left: 0px;
+	}	
+
+}
